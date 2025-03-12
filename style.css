@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to top, #efefef 60%, #fff 60%), linear-gradient(to bottom, #fff 40%, #efefef 40%);
+    background: linear-gradient(to top, #efefef 55%, #fff 55%), linear-gradient(to bottom, #fff 45%, #efefef 45%);
 
 }
 
@@ -50,20 +50,25 @@ nav .techmulan {
     font-size: 2rem;
 }
 
-nav .links {
+nav .links{
     gap: 20px;
     display: flex;
     justify-content: space-between;
     font-weight: 600;
 
+    
+
 }
 
 
-nav .links a:hover {
+nav .links:hover {
     text-decoration: line-through;
-    transition: all 0.3s ease;
+
+    
 
 }
+
+
 
 .scrollnav a {
     text-decoration: none;
@@ -154,17 +159,70 @@ figcaption a{
 
 /* This is the styling of my footer*/
 
-footer{
+
+footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
-footer a{
+footer a {
     text-decoration: none;
-    color: 000;
+    color: black;
+    margin: 10px;
 }
 
-footer div button{
-    border: 1px solid 000;
-    background-color: fff;
+footer div button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .introductionsec {
+        text-align: left;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 5%;
+        margin-bottom: 50px;
+    }
+    nav .links {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .cards{
+        display: block;
+        justify-content: center;
+    }
+
+    .cards{
+        display: block;
+        
+    }
+
+    
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        background-color: #f8f8f8;
+    }
+
+    main .text p {
+        font-size: 3rex;
+        text-align: center;
+    }
+
+    .articlesheading p{
+        font-size: 3rex;
+        text-align: center;
+    }
 }
