@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to top, #efefef 60%, #fff 60%), linear-gradient(to bottom, #fff 40%, #efefef 40%);
+
+}
+
+
+
+.introductionsec {
+    height: 96vh;
+    color: black;
+
+}
+
+.introductionsec h1 {
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+
+.introductionsec small {
+    font-size: 2rem;
+}
+
+.introductionsec p {
+    font-size: 4rex;
+}
+
+/* The styling of my nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav .techmulan {
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+nav .links {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+
+}
+
+
+nav .links a:hover {
+    text-decoration: line-through;
+    transition: all 0.3s ease;
+
+}
+
+.scrollnav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* The styling of my main section */
+
+main .text {
+    background-color: #fff;
+
+}
+
+main .text h1 {
+    color: 000;
+    font-family: cursive;
+    text-align: right;
+}
+
+main .text i {
+    color: orange;
+}
+
+main .text {
+    display: block;
+}
+
+main .text p {
+    font-size: 4rex;
+}
+
+main .morebutton {
+
+    text-align: center;
+}
+
+main .morebutton button {
+    padding: 10px 40px;
+    border: 1px solid black;
+
+}
+
+main .morebutton button:hover {
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    
+}
+
+main .morebutton button a:hover {
+
+    color: fff;
+}
+
+/* The styling of my articles section */
+
+main .articles {
+    background-color: #efefef;
+}
+
+.articlesheading h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.articlesheading p{
+    font-size: 4rex;
+}
+
+/* The styling of my cards */
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+figcaption a{
+    text-decoration: none;
+    color: black;
+}
+.cards .carddiv{
+    border: 1px solid white;
+}
+
+.cards .carddiv:hover{
+    box-shadow: 5px 10px #888888;
+    border: 1px solid black;
+}
+
+/* This is the styling of my footer*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: 000;
+}
+
+footer div button{
+    border: 1px solid 000;
+    background-color: fff;
+}
