@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* The styling of my nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav .techmulan {
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+nav .links {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+
+
+}
+
+
+nav .links:hover {
+    text-decoration: line-through;
+
+
+
+}
+
+
+main .coltext h1 {
+    font-family: cursive;
+}
+
+main .coltext p {
+    font-size: 4rex;
+}
+
+/* Styling the list */
+
+/* main .list li ul li{
+    display: none;
+}
+
+main .list li{
+    list-style-type: square;
+    font-size: 3rem;
+}
+
+main .list li:active li.dropdown{
+    display: block;
+}
+
+main .list li:focus-within li.dropdown{
+    display: block;
+} */
+
+
+main .navbuttom a {
+
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+main .navbuttom {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* This is the styling of my footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #efefef;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+footer div button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 5%;
+        margin-bottom: 50px;
+    }
+
+    nav .links {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    main img {
+        width: 400px;
+    }
+
+    main .firstrow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    main .navbuttom{
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        background-color: #f8f8f8;
+    }
+
+
+}
